@@ -1,0 +1,14 @@
+{
+  "name": "loading_data_to_controller_without_promise",
+  "version": "1.0.0",
+  "authors": [
+    "justvitalius <justvitalius@gmail.com>"
+  ],
+  "description": "Render a loaded data into Controller without Promises in a Factory",
+  "license": "MIT",
+  "homepage": "https://github.com/justVitalius/loading_data_to_controller_without_promise",
+  "dependencies": {
+    "angular": "~1.4.0",
+    "underscore": "~1.8.3"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "angular_cache_factory",
+  "version": "1.0.0",
+  "description": "Render a loaded data into Controller without Promises in a Factory",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/justVitalius/loading_data_to_controller_without_promise.git"
+  },
+  "author": "justvitalius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justVitalius/loading_data_to_controller_without_promise/issues"
+  },
+  "homepage": "https://github.com/justVitalius/loading_data_to_controller_without_promise#readme",
+  "dependencies": {
+    "bower": "^1.4.1",
+    "http-server": "^0.8.0"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install",
+    "server": "./node_modules/http-server/bin/http-server ."
+  }
+}

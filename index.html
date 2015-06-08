@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body ng-app='app'>
+    <h1>Angular Cache Factory Testing</h1>
+    <div ng-controller='TestController as TestCtrl'>
+    <p ng-if='!TestCtrl.data'>данные не загружены</p>
+    <ul>
+      <li ng-repeat='item in TestCtrl.data' ng-bind='item.title'></li>
+    </ul>
+    </div>
+    <script src='/bower_components/angular/angular.min.js'></script>
+    <script src='/bower_components/underscore/underscore-min.js'></script>  
+    <script src='/app.js'></script>
+  </body>
+</html>   
